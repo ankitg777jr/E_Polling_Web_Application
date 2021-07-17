@@ -15,10 +15,6 @@ namespace E_Polling_Web_Application
         string strcon = ConfigurationManager.ConnectionStrings["con"].ConnectionString;
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Page.IsPostBack)
-            {
-                Response.Redirect("homepoage.aspx");
-            }
             try
             {
                 SqlConnection con = new SqlConnection(strcon);

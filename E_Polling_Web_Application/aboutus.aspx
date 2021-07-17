@@ -5,7 +5,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <section>
         <center>
-            <img src="imgs\E_Polling.jpg" class="img-fluid" />
+            <img src="imgs\e_voting.jpg" class="img-fluid" />
         </center>
     </section>
     <br />
